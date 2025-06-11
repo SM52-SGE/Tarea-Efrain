@@ -1,0 +1,75 @@
+.titulo-menu{
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;  
+  font-family: 'Poppins', sans-serif;
+}
+
+.toolbar-button {
+  color: #0066FF;
+  }
+
+
+.lenguaje-icon{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  color: black;
+  
+}
+.home-icon {
+  font-size: 24px;
+  color: black;
+  position: relative;
+  left: 230px;
+}
+
+.home-icon:hover::after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 35px;
+  height: 35px;
+  border-radius: 20%;
+  background-color: blue;
+  z-index: -1;
+}
+.arrow-back-icon{
+  color: black;
+  position: absolute;
+left: 245px;
+width: 27px;
+height: 27px;
+
+}
+.titulo-menu{
+  position: relative;
+  font-size: 15.1px;
+  color: black;
+  right: 20px;
+ top: 5px;
+}
+.boton-idioma {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px; // Bordes ligeramente redondeados
+  font-size: 16px; // Tamaño de fuente más grande
+  margin-bottom: 30px;
+  height: 80px; // Altura del botón
+  padding: 0 16px; // Espaciado interno para ajustar el tamaño y la apariencia
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.espana {
+  border-color: #c60b1e; // Rojo de la bandera de España
+  color: #c60b1e;
+}
+
+.usa {
+  border-color: #3c3b6e; // Azul de la bandera de EE.UU.
+  color: #3c3b6e;
+}
